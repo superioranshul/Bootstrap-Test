@@ -203,6 +203,9 @@ h1,.companyName {                                 /* Heading Styles */
         position: absolute;
         opacity: 0.2;
     }
+    .forkspoonImage {
+        right:25% !important;
+    }
     .handimage {                                                        /* Hide Hand Image */
         display: none !important;
     }
@@ -244,11 +247,13 @@ h1,.companyName {                                 /* Heading Styles */
         top: 59%;
         right: 2%;
     }
-}
-                        /* Media Query for Mobile */
+}                       /* Media Query for Mobile */
 @media screen and (max-width:430px) {                                                        
     .discountPage, .discountContent, .loremArticle, .doubleContainer, .gallerymain {
         width: 100% !important;                                                                /* Width Adjustment */
+    }
+    .forkspoonImage {                                                     /* Hide Fork and Spoon Image */
+        display: none;
     }
     .contentHead,.foodchoice {
         text-align: center !important;                                         /* Text Alignment Adjustment */
@@ -268,9 +273,6 @@ h1,.companyName {                                 /* Heading Styles */
     }
     .leftForm,.rightForm {                                                  /* Margin Adjustment */
         margin-left: 2%;
-    }
-    .forkspoonImage {                                                     /* Hide Fork and Spoon Image */
-        display: none;
     }
     .contactContent {                                                    /* Width and Padding Adjustment */
         width: 100%;
