@@ -270,9 +270,6 @@ h1,.companyName {                                 /* Heading Styles */
         text-align: center !important;
         font-size: 2rem !important;
     }
-    .gallerycontainer {
-        width: 24rem !important;                                     /* Width Adjustment */
-    }
     .gallerymain {                                                     /* Margin Adjustment */
         margin-left: 0%;
     }
