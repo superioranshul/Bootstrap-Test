@@ -358,12 +358,28 @@
         </section>
         <!-- Submit button -->
         <section class="my-5">
-            <button type="submit" class="bg-warning submitButton mt-5 py-1 fs-4 fw-light">SUBMIT</button>
+            <button type="submit" class="bg-warning submitButton mt-5 py-1 fs-4 fw-light" data-bs-toggle="modal" data-bs-target="#modalBooked">SUBMIT</button>
         </section>
     </div>
 </div>
 <!-- End of Booking Page Section -->
-
+<!-- Modal -->
+<div class="modal fade" id="modalBooked" tabindex="-1" aria-labelledby="modalBooked" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-dark">
+      <div class="modal-header">
+        <h5 class="modal-title bg-dark text-white text-center" id="ModalLabel">BOOKED</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-white bg-dark bg-0">
+        Thanks for booking. We will contact you soon.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Image Page Section -->
 <div class="container-fluid p-0 imagePage">
     <!-- Image -->
