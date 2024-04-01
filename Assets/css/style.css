@@ -181,7 +181,7 @@ h1,.companyName {                                 /* Heading Styles */
 .forkspoonImage {                                             /* Fork and Spoon Image Positioning */
     top: 18%;
     right: 10%;
-    animation: circlerotate 150s linear 0s infinite normal none;
+    animation: circlerotate 50s linear 0s infinite normal none;
 }
 @keyframes circlerotate {                                    /* Keyframes for Circlerotate Animation */
     from {
