@@ -21,11 +21,10 @@ h1,.companyName {                                 /* Heading Styles */
 .form-control::placeholder {                   /* Placeholder Text Color */
     color: white;
 }
-.homePage {                                    /* Homepage Background Styles */
+.homePage,.galleryPage {                                    /* Homepage Background Styles */
     background-image: url("../images/firstbackground.png");
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
 }
 .homePagemain,.aboutPage,.discountPage,.selectmenu,.blogPage,.contactPage,.gallerycontainer {
     position: relative;                        /* Relative Position for Certain Pages */
@@ -95,11 +94,6 @@ h1,.companyName {                                 /* Heading Styles */
 }
 .funsize+p {                                            /* Additional Paragraph Styles */
     font-size: 2.8rem;
-}
-.galleryPage {                                           /* Gallery Page Background Styles */
-    background-image: url("../images/firstbackground.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .galleryphotos {                                            /* Gallery Photos Width */
     width: 100%;
@@ -203,9 +197,7 @@ h1,.companyName {                                 /* Heading Styles */
     transform: scale(1.1);
     transition: 100ms;
 }
-
                          /* Media Query for Tablet */
-
 @media screen and (min-width:430px) and (max-width:1100px) {            
     .leftpanCake,.grapeCake,.ellipse,.forkspoonImage {                  /* Positioning for Certain Elements */
         position: absolute;
@@ -253,9 +245,7 @@ h1,.companyName {                                 /* Heading Styles */
         right: 2%;
     }
 }
-
                         /* Media Query for Mobile */
-
 @media screen and (max-width:430px) {                                                        
     .discountPage, .discountContent, .loremArticle, .doubleContainer, .gallerymain {
         width: 100% !important;                                                                /* Width Adjustment */
