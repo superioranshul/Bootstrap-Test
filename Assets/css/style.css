@@ -270,6 +270,9 @@ h1,.companyName {                                 /* Heading Styles */
         text-align: center !important;
         font-size: 2rem !important;
     }
+    .swipecard{
+        display: none !important;
+    }
     .gallerymain {                                                     /* Margin Adjustment */
         margin-left: 0%;
     }
