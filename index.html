@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Gran Restaurant</title>
+    <!-- Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Font family - Atma -->
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Font family - Chivo -->
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Chivo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Font family - Noto Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Section -->
+    <div class="container-fluid homePage p-0 pt-md-5">
+        <nav class="navbar navbar-expand-md py-3">
+            <div class="container-fluid ">
+                <!-- Logo (visible on small screens) -->
+                <a class="navbar-brand d-md-none" href="#">
+                    <div class="logo d-flex flex-column">
+                        <h1 class="text-white mb-0">L'Gran</h1>
+                        <p class="text-white mb-0 subHead">food of your own choice</p>
+                    </div>
+                </a>
+                <!-- Navbar toggler button for small screens -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse justify-content-center align-items-center ps-md-0 ps-3"
+                    id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <!-- Navigation links -->
+                        <a class="nav-link text-white pt-4 fs-5" href="#aboutPage">ABOUT US</a>
+                        <a class="nav-link text-white pt-4 ms-lg-4 fs-5" href="#discountPage">MENU</a>
+                        <a class="nav-link text-white pt-4 me-lg-5 fs-5 ms-lg-4" href="#galleryPage">GALLERY</a>
+                        <!-- Logo (visible on large screens) -->
+                        <div class="navbar-brand mx-5 d-none d-md-block mt-1" href="#">
+                            <div class="logo d-flex flex-column">
+                                <h1 class="text-white mb-0 text-center fs-1">L'Gran</h1>
+                                <p class="text-white mb-0 subHead">food of your own choice</p>
+                            </div>
+                        </div>
+                        <!-- Additional navigation links -->
+                        <a class="nav-link text-white pt-4 ms-lg-5 me-lg-4 fs-5" href="#bookingPage">BOOKINGS</a>
+                        <a class="nav-link text-white pt-4 me-lg-4 fs-5" href="#contactPage">CONTACT</a>
+                        <a class="nav-link text-white pt-4 fs-5" href="#blogPage">BLOG</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Main Content Section -->
+        <main class="container-fluid d-flex px-0 homePagemain">
+            <!-- Left panel (visible on large screens) -->
+            <div class="leftpanCake h-100 d-none d-md-block">
+                <img src="./Assets/images/pancake.png" width="550" height="780" alt="Pancake Image" />
+            </div>
+            <!-- Right panel content -->
+            <div class="homepageContent container-fluid d-flex flex-column pe-0 justify-content-center pt-5">
+                <!-- Upper Content Section -->
+                <div class="upperContent container-fluid pt-md-5 pt-0">
+                    <!-- Exclusive Menu Section -->
+                    <section class="text-white ps-5 pe-5 pt-md-5 pt-0 ">
+                        <p class="fs-1 mb-1 px-lg-5 px-0 text-end pt-3 contentHead">START YOUR MEAL WITH OUR EXCLUSIVE
+                            MENU
+                        </p>
+                        <p class="fs-2 pe-5 text-warning text-end learnmore"> LEARN MORE...</p>
+                    </section>
+                    <!-- Restaurant Name Section -->
+                    <section class="text-white ps-5 pe-5 mt-5 mb-5 lGran">
+                        <p class=" text-end pe-lg-5 pe-3 me-4 mb-0 pt-5 companyName">L'Gran</p>
+                        <p class=" text-end pe-lg-4 pe-0 fs-4 me-4 fw-light foodchoice">food of your own choice</p>
+                    </section>
+                </div>
+                <!-- Table Booking Section -->
+                <section
+                    class="text-white ps-5 pe-5 mt-5 mb-5 pt-4 pb-2 p-auto container-fluid tableBook d-flex justify-content-lg-end justify-content-center">
+                    <div class="booking pe-lg-5 pe-0 d-flex justify-content-lg-end">
+                        <p class="fs-1 lh-1 pe-lg-5 pe-0 text-end w-75">BOOK YOUR TABLE <span
+                                class="text-warning">NOW</span>
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <!-- About Page Section -->
+    <div class="container-fluid aboutPage d-flex pe-0" id="aboutPage">
+        <!-- Left design element -->
+        <div class="aboutpageContent container-fluid d-flex flex-column pe-0 justify-content-start pt-5">
+            <!-- Section heading -->
+            <section class="d-flex justify-content-center ms-lg-5 mt-md-4">
+                <div class="leftdesign d-flex align-items-center mt-md-5">
+                    <div class="curve">
+                        <img src="./Assets/images/curvedesign.png" alt="curve design">
+                    </div>
+                </div>
+                <!-- About heading -->
+                <div class="aboutHead d-flex mx-md-5 mt-md-5 ms-3 me-2 px-2">
+                    <p class="text-white fs-1">ABOUT</p>
+                    <h1 class="text-white fs-1 ms-md-3 ms-2 fw-normal pt-1 pt-md-2">L'Gran</h1>
+                </div>
+                <!-- Right design element -->
+                <div class="rightdesign d-flex mt-md-5 align-items-center">
+                    <div class="curve">
+                        <img src="./Assets/images/curvedesign.png" alt="curve design">
+                    </div>
+                </div>
+            </section>
+            <!-- About content -->
+            <section class="ps-lg-5 pe-lg-2 px-4 mt-md-5 mt-4 mb-2">
+                <article class="text-white text-md-center text-justify fs-6 ps-4 lh-6 mt-3">
+                    <!-- About text -->
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Quis ipsum suspendisse ultrices gravida. Risus commodo vive
+                    rra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incid idunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure d
+                </article>
+            </section>
+            <!-- Visit or Book section -->
+            <section
+                class="text-white ps-lg-5 pe-lg-2 mt-md-5 mt-3 mb-md-5 mb-5 pt-4 container-fluid d-flex justify-content-center">
+                <div class=" d-flex mt-3 justify-content-end visitBook">
+                    <p class="fs-4 fw-light ">Visit OR Book <span class="text-warning">NOW</span>
+                    </p>
+                </div>
+            </section>
+        </div>
+        <!-- Right design element (visible on large screens) -->
+        <div class="grapeCake d-none d-md-block">
+            <img src="./Assets/images/grapecake.png" width="650" alt="Pancake Image" />
+        </div>
+    </div>
+    <!-- Discount Page Section -->
+    <div class="container-fluid discountPage d-flex pt-lg-5 pt-0 justify-content-lg-end justify-content-center"
+        id="discountPage">
+        <!-- Hand image element -->
+        <div class="container handimage d-none d-md-block position-absolute p-0">
+            <figure class="m-0">
+                <img src="./Assets/images/handimage.png" alt="stawberry cake">
+            </figure>
+            <figure class="m-0">
+                <img src="./Assets/images/ellipse.png" class="ellipse w-100 position-absolute" alt="stawberry cake">
+            </figure>
+        </div>
+        <!-- Discount content -->
+        <div class="discountContent container w-75 pt-lg-5 pt-0 ps-md-0 ps-4  ">
+            <main class="d-flex mt-lg-5 flex-column justify-content-center align-items-end">
+                <!-- Section heading -->
+                <section
+                    class="d-flex justify-content-lg-end justify-content-center me-md-5 me-0 ms-lg-5 mt-lg-5 foodHeading">
+                    <div class="leftdesign d-flex align-items-center mt-md-5">
+                        <div class="curve">
+                            <img src="./Assets/images/whitecurve.png" alt="curve design">
+                        </div>
+                    </div>
+                    <!-- Food quality heading -->
+                    <div class="aboutHead d-flex mx-lg-4 mt-md-5 mx-0 px-2">
+                        <p class="text-white fs-1 text-center">OUR FOOD QUALITY</p>
+                    </div>
+                    <div class="rightdesign d-flex mt-md-5 me-3 align-items-center">
+                        <div class="curve">
+                            <img src="./Assets/images/whitecurve.png" alt="curve design">
+                        </div>
+                    </div>
+                </section>
+                <!-- Food quality content -->
+                <section class="px-md-5 px-4 mt-md-5 w-75 loremArticle mt-4 mb-2">
+                    <article class="text-white text-md-center text-justify ms-4 ms-md-0 lh-6 mt-3">
+                        <!-- Food quality text -->
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                        gravida.
+                    </article>
+                </section>
+                <!-- Double fun section -->
+                <section
+                    class="text-white doubleContainer ps-md-5 ps-0 pe-md-5 pe-0 w-75 mt-5 mb-lg-5 mb-0 pt-4 pb-2 p-auto container m-0 d-flex ms-md-5">
+                    <div class="pe-md-1 pe-0 ps-3  d-flex d-flex flex-column mb-5 ms-md-5 ms-0 ps-md-3">
+                        <!-- Double fun text -->
+                        <p class="funsize lh-1 text-justify align-items-end fw-lighter">DOUBLE THE FUN </p>
+                        <p class="lh-1 text-justify align-items-end fw-lighter saturday">ON EVERY SATURDAY </p>
+                        <!-- Discount offer text -->
+                        <div class="mb-lg-5 mb-0 ms-md-4 getdiscount">
+                            <p class="text-warning ms-md-5 ms-4 ps-1 fs-3 fw-lighter mb-md-5">GET UPTO 50% DISCOUNT</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+    <!-- Gallery Page Section -->
+    <div class="container-fluid galleryPage pb-5" id="galleryPage">
+        <div class="container gallerymain w-75 pt-md-0 pt-5">
+            <!-- Section heading -->
+            <section class="d-flex justify-content-center ms-lg-5 ">
+                <div class="leftdesign d-flex align-items-center mt-md-5">
+                    <div class="curve">
+                        <img src="./Assets/images/curvedesign.png" alt="curve design">
+                    </div>
+                </div>
+                <div class="aboutHead d-flex mx-md-5 mt-md-5 ms-3 me-2 px-2">
+                    <p class="text-white fs-1">GALLERY</p>
+                </div>
+                <div class="rightdesign d-flex mt-md-5 align-items-center">
+                    <div class="curve">
+                        <img src="./Assets/images/curvedesign.png" alt="curve design">
+                    </div>
+                </div>
+            </section>
+            <!-- Gallery content -->
+            <section class="ms-lg-5 ms-0 mt-5 pb-3 gallerycontainer">
+                <div class="swipecard d-flex flex-column align-items-center w-100 h-100">
+                    <!-- Gallery details -->
+                    <p class="text-white fs-1 display-1 fw-bold mt-5 pt-5">Details</p>
+                    <p class="text-white px-5"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus
+                        adipisci quos dicta nam corporis
+                        hic nisi tenetur culpa reprehenderit! Error asperiores deserunt eveniet assumenda, dolorem
+                        tenetur?
+                        Dolorem eaque aperiam nulla. Eligendi tenetur voluptas pariatur maxime, error quaerat asperiores
+                        eius illum?
+                    </p>
+                    <!-- More gallery details -->
+                    <p class="text-white px-5"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus
+                        adipisci quos dicta nam corporis
+                        hic nisi tenetur culpa reprehenderit! Error asperiores deserunt eveniet assumenda, dolorem
+                        tenetur?
+                        Dolorem eaque aperiam nulla. Eligendi tenetur voluptas pariatur maxime, error quaerat asperiores
+                        eius illum?
+                    </p>
+                    <!-- Even more gallery details -->
+                    <p class="text-white px-5"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus
+                        adipisci quos dicta nam corporis
+                        hic nisi tenetur culpa reprehenderit! Error asperiores deserunt eveniet assumenda, dolorem
+                        tenetur?
+                        Dolorem eaque aperiam nulla. Eligendi tenetur voluptas pariatur maxime, error quaerat asperiores
+                        eius illum?
+                    </p>
+                </div>
+                <!-- Gallery image -->
+                <img src="./Assets/images/galleryphotos.png" class="galleryphotos ms-2">
+            </section>
+        </div>
+    </div>
+ <!-- Start of Booking Page Section -->
+<div class="container-fluid bookingPage pt-md-2 pt-5 pb-3 d-flex justify-content-center" id="bookingPage">
+    <div class="container-fluid bg-grey d-flex flex-column align-items-center">
+        <!-- Section heading -->
+        <section class="d-flex justify-content-center ms-lg-5">
+            <!-- Left curve design -->
+            <div class="leftdesign d-flex align-items-center mt-md-4">
+                <div class="curve">
+                    <img src="./Assets/images/curvedesign.png" alt="curve design">
+                </div>
+            </div>
+            <!-- Heading -->
+            <div class="aboutHead d-flex mx-md-4 mt-md-5 ms-3 me-2">
+                <p class="text-white fs-1">BOOK</p>
+                <p class="text-white fs-1 ms-3">NOW</p>
+            </div>
+            <!-- Right curve design -->
+            <div class="rightdesign d-flex mt-md-4 align-items-center">
+                <div class="curve">
+                    <img src="./Assets/images/curvedesign.png" alt="curve design">
+                </div>
+            </div>
+        </section>
+        <!-- Description -->
+        <section>
+            <p class="text-white mt-4 ms-md-5 ms-2 fs-2 ps--md-4 ps-0 fw-lighter text-center"> Book Your Table Now And Have A Great Meal !</p>
+        </section>
+        <!-- Booking form -->
+        <section class="d-flex mt-3 w-100 flex-column flex-lg-row">
+            <!-- Left form -->
+            <div class="leftForm mt-5">
+                <form>
+                    <!-- Full name input -->
+                    <div class="form-group">
+                        <label for="name" class="text-white notoFont fs-5">Your full name ?</label>
+                        <input type="text" class="form-control border mt-2 border-1 bg-transparent text-white  border-warning" id="name" placeholder=" Write your name here...">
+                    </div>
+                    <!-- Number of people input -->
+                    <div class="form-group mt-5 selectmenu">
+                        <label for="formselect" class="text-white notoFont fs-5">How many people ?</label>
+                        <select class="form-select border border-1 mt-2 bg-transparent text-white border-warning" id="formselect">
+                            <option class="bg-transparent">2 people</option>
+                        </select>
+                        <div class="icon position-absolute">
+                            <label for="formselect">
+                                <img src="./Assets/images/shape.png" height="8">
+                            </label>
+                        </div>
+                    </div>
+                    <!-- Date input -->
+                    <div class="form-group mt-5 selectmenu">
+                        <label for="date" class="text-white notoFont fs-5">What is the date ? </label>
+                        <select class="form-select border border-1 mt-2 bg-transparent text-white border-warning" id="date">
+                            <option class="bg-transparent">1/15/2020</option>
+                        </select>
+                        <div class="icon position-absolute">
+                            <label for="date">
+                                <img src="./Assets/images/shape.png" height="8">
+                            </label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- Right form -->
+            <div class="rightForm  mt-5">
+                <form>
+                    <!-- Email input -->
+                    <div class="form-group">
+                        <label for="email" class="text-white notoFont fs-5">Your email address ?</label>
+                        <input type="email" class="form-control border mt-2 border-1 bg-transparent text-white   border-warning" id="email" placeholder=" Write your email here..." />
+                    </div>
+                    <!-- Time input -->
+                    <div class="form-group mt-5 selectmenu">
+                        <label for="time" class="text-white notoFont fs-5">What time ? </label>
+                        <select class="form-select border border-1 mt-2 bg-transparent text-white border-warning" id="time">
+                            <option class="bg-transparent">10:00 am</option>
+                        </select>
+                        <div class="icon position-absolute">
+                            <label for="formselect">
+                                <img src="./Assets/images/clock.png" height="15">
+                            </label>
+                        </div>
+                    </div>
+                    <!-- Phone number input -->
+                    <div class="form-group">
+                        <label for="number" class="text-white notoFont mt-5 fs-5">Your phone number ?</label>
+                        <input type="text" class="form-control border mt-2 border-1 bg-transparent text-white   border-warning" id="number" placeholder=" Write your number here..." />
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- Submit button -->
+        <section class="my-5">
+            <button type="submit" class="bg-warning submitButton mt-5 py-1 fs-4 fw-light">SUBMIT</button>
+        </section>
+    </div>
+</div>
+<!-- End of Booking Page Section -->
+
+<!-- Image Page Section -->
+<div class="container-fluid p-0 imagePage">
+    <!-- Image -->
+    <img src="./Assets/images/grapescake.png " class="grapescake">
+</div>
+
+<!-- Blog Page Section -->
+<div class="container-fluid blogPage py-5" id="blogPage">
+    <div class="container w-75 d-flex flex-column align-items-center">
+        <!-- Quote Logo -->
+        <div class="mt-3"><img src="./Assets/images/quotelogo.png"></div>
+        <!-- Quote -->
+        <section class="px-md-5 px-0">
+            <p class="text-center text-white mt-5 px-md-5 px-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+        </section>
+        <!-- Author -->
+        <section>
+            <p class="text-warning fs-3 mt-4">LINDA STEWARD</p>
+        </section>
+    </div>
+    <!-- Sun Design Image -->
+    <div class="sundesign">
+        <img src="./Assets/images/sundesign.png">
+    </div>
+</div>
+
+<!-- Contact Page Section -->
+<div class="container-fluid contactPage d-flex justify-content-start py-5 border-warning" id="contactPage">
+    <div class="container contactContent my-5 mx-0 ps-5 mx-md-0 px-md-4">
+        <!-- Enjoy Our Best Meal heading -->
+        <section>
+            <p class="fs-2 text-warning text-center fw-lighter">Enjoy Our Best Meal</p>
+        </section>
+        <!-- Description -->
+        <section class="mt-5 text-center text-white px-md-5 px-1">
+            <article class="px--md-5 px-0">Lorem ipsum dolor sit amet consectetur adi pisicing elit, sed do eiusmod tempor incididunt ut labore etdolore magna sed do eiusmod tempor incididunt ut labore etdolore</article>
+        </section>
+        <!-- Contact Us Button -->
+        <section class="contactButton">
+            <p class="fs-2 text-warning mt-5 text-center fw-light">CONTACT US NOW</p>
+        </section>
+    </div>
+    <!-- Fork and Spoon Image -->
+    <div class="forkspoonImage position-absolute">
+        <img src="./Assets/images/forkspooncake.png" height="300">
+    </div>
+</div>
+
+<!-- Social Page Section -->
+<div class="container-fluid socialPage py-5" id="socialPage">
+    <div class="d-flex container flex-column align-items-center">
+        <!-- Logo and Slogan -->
+        <h1 class="text-white display-4 mb-0 fw-light mt-3 logoName">L'Gran</h1>
+        <p class="text-white mt-0">food of your choice</p>
+        <!-- Navigation Links -->
+        <section class="d-flex flex-md-row flex-column mt-3 pe-md-3 pe-5">
+            <a class="nav-link text-white fs-6 ms-5 ms-md-none" href="#aboutPage">ABOUT US</a>
+            <a class="nav-link text-white fs-6 ms-5" href="#discountPage">MENU</a>
+            <a class="nav-link text-white fs-6 ms-5" href="#bookingPage">BOOKINGS</a>
+            <a class="nav-link text-white fs-6 ms-5" href="#galleryPage">GALLERY</a>
+            <a class="nav-link text-white fs-6 ms-5" href="#contactPage">CONTACT</a>
+            <a class="nav-link text-white fs-6 ms-5" href="#blogPage">BLOG</a>
+        </section>
+        <!-- Social Media Icons -->
+        <section class="d-flex mt-5 mb-2">
+            <ul class="list-group list-group-horizontal border-0 ps-md-4 ps-0">
+                <li class="list-group-item bg-transparent border-0 pe-3"><img src="./Assets/images/facebook.png" height="31"></li>
+                <li class="list-group-item bg-transparent border-0 ps-0 pe-3"><img src="./Assets/images/twitter.png" height="31"></li>
+                <li class="list-group-item bg-transparent border-0 ps-0 pe-3"><img src="./Assets/images/instagram.png"height="31"></li>
+                <li class="list-group-item bg-transparent border-0 ps-0"><img src="./Assets/images/pinterest.png"height="31"></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<!-- Bootstrap JS Script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+<!-- End of HTML -->

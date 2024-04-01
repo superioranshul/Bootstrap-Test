@@ -1,0 +1,289 @@
+* {                                               /* Reset CSS */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {                                            /* Body Styles */
+    margin: 0; 
+    padding: 0;
+    font-family: Chivo;
+}
+h1,.companyName {                                 /* Heading Styles */
+    font-family: Atma;
+}
+.companyName+p {                                  /* Additional Heading Styles */
+    font-stretch: ultra-expanded;
+    font-family: Noto Sans;
+}
+.notoFont {                                    /* Font Family for Specific Elements */
+    font-family: Noto Sans;
+}
+.form-control::placeholder {                   /* Placeholder Text Color */
+    color: white;
+}
+.homePage {                                    /* Homepage Background Styles */
+    background-image: url("../images/firstbackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.homePagemain,.aboutPage,.discountPage,.selectmenu,.blogPage,.contactPage,.gallerycontainer {
+    position: relative;                        /* Relative Position for Certain Pages */
+}
+.navbar {                                                  /* Navbar Styles */
+    background-color: #555555;
+}
+.navbar-nav a:hover {                                /* Navbar Link Hover Styles */
+    transform: scale(1.1);
+    transition: 100ms;
+    text-underline-offset: 10px;
+    text-decoration: underline;
+}
+.subHead {                                     /* Subheading Styles */
+    font-size: 11px;
+}
+.contentHead {                                 /* Content Heading Styles */
+    line-height: 3rem;
+}
+.companyName {                                  /* Company Name Styles */
+    font-size: 5.5rem;
+    line-height: 6rem;
+}
+.upperContent {                          /* Additional Upper Content Styles */
+    padding-right: 6%;
+}
+.tableBook {                                   /* Table Booking Styles */
+    background: linear-gradient(to left, #b0b3af6f, transparent);
+    margin-bottom: 10%;
+}
+.booking:hover{                                 /* Booking Button Hover Effect */
+    transform: scale(1.1);
+    transition: 200ms;
+}
+.aboutPage,.bookingPage {                           /* Background Styles for Certain Pages */
+    background-image: url("../images/secondbackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid #414040;
+}
+.bookingPage{
+    border-top: none;
+}
+.discountPage {                                          /* Discount Page Background Styles */
+    background-image: url("../images/thirdbackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.handimage {                                           /* Hand Image Positioning */
+    left: 9%;
+    width: 46%;
+    height: 100%;
+    top: 0;
+}
+.ellipse {                                            /* Ellipse Image Positioning */
+    bottom: 3%;
+    height: 10%;
+}
+.discountContent {                                      /* Discount Content Margin */
+    margin: 10% 0% 8%;
+}
+.loremArticle>article {                                  /* Article Font Size */
+    font-size: 1.1rem;
+}
+.funsize {                                            /* Funsize Heading Styles */
+    font-size: 3.5rem;
+}
+.funsize+p {                                            /* Additional Paragraph Styles */
+    font-size: 2.8rem;
+}
+.galleryPage {                                           /* Gallery Page Background Styles */
+    background-image: url("../images/firstbackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.galleryphotos {                                            /* Gallery Photos Width */
+    width: 100%;
+}
+.gallerycontainer {                                         /* Overflow Hidden for Gallery Container */
+    overflow: hidden;
+}
+.swipecard {                                                 /* Swipecard Positioning */
+    position: absolute;
+    background-color: #555555d2;
+    left: -200rem;
+}
+.gallerycontainer:hover>.swipecard {                          /* Swipecard Hover Effect */
+    left: 0;
+    transition: 500ms;
+    animation-timing-function: ease-in-out;
+}
+.gallerycontainer:hover {                                  /* Gallery Container Hover Effect */
+    transform: scale(1.1);
+    transition: 500ms;
+}
+.icon {                                                    /* Icon Positioning */
+    top: 59%;
+    right: 5%;
+}
+.form-group input[type="text"],input[type="email"] {       /* Form Input Styles */
+    font-size: 12px;
+    padding: 12px 13rem 12px 10px;
+}
+.form-group select {                                          /* Select Menu Styles */
+    font-size: 12px;
+    padding: 12px 15px;
+}
+.leftForm,.rightForm {                                    /* Left and Right Form Margin */
+    margin-left: 13%;
+}
+.submitButton {                                            /* Submit Button Styles */
+    padding: 5rem;
+    border: none;
+}
+.submitButton:hover {                                      /* Submit Button Hover Effect */
+    background-color: #060000 !important;
+    color: white;
+    transform: scale(1.01);
+    border-bottom: 2px solid #FFC107;
+    transition: 100ms;
+    border-radius: 10px;
+}
+.grapescake {                                                /* Grapescake Image Width */
+    width: 100%;
+}
+.blogPage {                                                 /* Blog Page Background Styles */
+    background-color: #0B0C0C;
+    overflow: hidden;
+}
+.sundesign {                                                /* Sundesign Image Positioning */
+    position: absolute;
+    right: -7rem;
+    top: -46rem;
+    width: 42%;
+}
+.contactPage,.socialPage {                                  /* Contact and Social Page Background Styles */
+    background-color: #151515;
+    border-bottom: 4px dotted;
+}
+.contactContent {                                            /* Contact Content Width */
+    width: 50%;
+}
+.visitBook:hover {                                          /* Visit Book Hover Effect */
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 500ms;
+}
+.contactButton:hover{                                         /* Contact Button Hover Effect */
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 500ms; 
+}
+.forkspoonImage {                                             /* Fork and Spoon Image Positioning */
+    top: 18%;
+    right: 10%;
+    animation: circlerotate 150s linear 0s infinite normal none;
+}
+@keyframes circlerotate {                                    /* Keyframes for Circlerotate Animation */
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 360deg;
+    }
+}
+.socialPage {                                           /* Social Page Border */
+    border: none;
+}
+.socialPage a:hover {                                     /* Social Page Link Hover Effect */
+    transition: 100ms;
+    text-underline-offset: 7px;
+    text-decoration: underline;
+}
+.list-group-item:hover {                                    /* List Item Hover Effect */
+    transform: scale(1.1);
+    transition: 100ms;
+}
+
+                         /* Media Query for Tablet */
+
+@media screen and (min-width:430px) and (max-width:1100px) {            
+    .leftpanCake,.grapeCake,.ellipse,.forkspoonImage {                  /* Positioning for Certain Elements */
+        position: absolute;
+        opacity: 0.2;
+    }
+    .handimage {                                                        /* Hide Hand Image */
+        display: none !important;
+    }
+    .discountPage,.discountContent,.loremArticle,.doubleContainer,.gallerymain {    /* Width Adjustment for Specific Pages */
+        width: 100% !important;
+    }
+    .learnmore{
+        margin-left: 16% !important;
+    }
+    .lGran{
+        margin-left: 9% !important; 
+    }
+    .foodHeading {                                                          /* Margin Adjustment */
+        margin-right: 14% !important;
+    }
+    .getdiscount {                                                            /* Margin Adjustment */
+        margin-left: 10% !important;
+    }
+    .contentHead,.foodchoice,.learnmore,.companyName {                       /* Text Alignment Adjustment */
+        text-align: center !important;
+    }
+    .grapeCake {                                                              /* Position Adjustment */
+        right: 0;
+    }
+    .homepageContent,.aboutpageContent {                                          /* Z-index Adjustment */
+        z-index: 1;
+    }
+    .navbar a {
+        font-size: 1rem !important;                                       /* Font Size Adjustment */
+    }
+    .contactContent {                                                     /* Width and Margin Adjustment */
+        width: 90%;  
+        margin-left: 7% !important;
+    }
+    .leftForm,.rightForm {                                               /* Margin Adjustment */
+        margin-left: 2%;
+    }
+    .icon {                                                                 /* Icon Position Adjustment */
+        top: 59%;
+        right: 2%;
+    }
+}
+
+                        /* Media Query for Mobile */
+
+@media screen and (max-width:430px) {                                                        
+    .discountPage, .discountContent, .loremArticle, .doubleContainer, .gallerymain {
+        width: 100% !important;                                                                /* Width Adjustment */
+    }
+    .contentHead,.foodchoice {
+        text-align: center !important;                                         /* Text Alignment Adjustment */
+    }
+    .tableBook {
+        margin-bottom: 18% !important;                                        /* Margin Adjustment */
+    }
+    .funsize,.saturday {                                                       /* Font Size Adjustment */
+        text-align: center !important;
+        font-size: 2rem !important;
+    }
+    .gallerycontainer {
+        width: 24rem !important;                                     /* Width Adjustment */
+    }
+    .gallerymain {                                                     /* Margin Adjustment */
+        margin-left: 0%;
+    }
+    .leftForm,.rightForm {                                                  /* Margin Adjustment */
+        margin-left: 2%;
+    }
+    .forkspoonImage {                                                     /* Hide Fork and Spoon Image */
+        display: none;
+    }
+    .contactContent {                                                    /* Width and Padding Adjustment */
+        width: 100%;
+        padding-left: 7% !important;
+    }
+}
